@@ -39,3 +39,34 @@
     gap: 0px;
     align-content: left; 
  }
+
+ .section02 {
+    display: inline-flex; 
+    font-weight: lighter;
+    justify-content: center;
+    margin: 59px;
+    gap: 15%;
+    padding: 15px;
+ }  
+
+ .section021 {
+    width: 50%;
+    float: left;
+    justify-content: center;
+    margin: 0%;
+ }
+
+ .section022 {
+    margin: 0%;
+    width: 50%;
+    float: left;
+    font-size: 12px;
+    justify-content: center;
+ }
+
+ .framepic {  
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px;
+    padding-bottom: 100px;
+ }
