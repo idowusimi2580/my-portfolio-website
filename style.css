@@ -1,18 +1,41 @@
  .navbar {
-    width: 100%;
-    background-color: aliceblue; 
+    width: 100%; 
     padding: 2px; 
-    top: 0%;
-    margin: 0px;
-    gap: 0%;
-    font-weight: normal; 
  }
 
  .navbar ul { 
     list-style-type: none;
-    display: flex;
-    justify-content: right; 
+    display: flex; 
     gap: 35px;
     margin-right: 100px; 
     font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: right;
+ }
+
+ .section01 {
+    display: flex; 
+    gap: 49px;
+    justify-content: center; 
+    border-bottom: solid 1px; 
+ }
+
+ .section1 {  
+    padding-bottom: 199px;
+    padding-top: 129px;
+    justify-content: center; 
+ }
+
+ .section11 { 
+    padding-bottom: 169px;
+    padding-top: 139px;
+    justify-content: center; 
+    font-size: xx-large;
+ }   
+
+ .section12 { 
+    margin-top: 389px;
+    gap: 0px;
+    align-content: left;
  }
