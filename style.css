@@ -106,3 +106,34 @@
       width: 389px;
    }
  } */
+
+ .section03 {
+   display: inline-flex; 
+   font-weight: lighter;
+   justify-content: center;
+   margin: 59px;
+   gap: 15%;
+   padding: 15px;
+}  
+
+.section031 {
+   width: 50%;
+   float: left;
+   justify-content: center;
+   margin: 0%;
+}
+
+.section032 {
+   margin: 0%;
+   width: 50%;
+   float: left;
+   font-size: 12px;
+   justify-content: center;
+}
+
+.framepic1 {
+   display: flex;
+   justify-content: center;
+   border-bottom: solid 1px;
+   padding-bottom: 100px;
+}
