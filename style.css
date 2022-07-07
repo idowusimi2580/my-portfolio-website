@@ -14,18 +14,22 @@
     justify-content: right;
  }
 
- .section01 {
-    display: flex; 
+ .section01 { 
+   display: flex;
+   flex-wrap: wrap;
+    flex-basis: 33.33%;
     gap: 49px;
     justify-content: center; 
     border-bottom: solid 1px; 
  }
-
+ 
  .section1 {  
     padding-bottom: 199px;
     padding-top: 129px;
     justify-content: center; 
- }
+ } 
+
+
 /*
  MOBILE RESPONSIVENESS 
  @media (min-width: 390px) {
@@ -50,12 +54,14 @@
    
  } */
 
+  
  .section11 { 
+   display: flex;
     padding-bottom: 169px;
     padding-top: 139px;
     justify-content: center; 
     font-size: xx-large;
- }   
+ }  
 
  .section12 { 
     margin-top: 389px;
