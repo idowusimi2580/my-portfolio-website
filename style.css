@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar { 
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: azure;
+} 
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 20px;
+}
+
+.section1 { 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;  } 
